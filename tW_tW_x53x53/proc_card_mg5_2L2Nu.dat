@@ -36,5 +36,6 @@ define vla = ve vm vt ve~ vm~ vt~
 define kk = e+ mu+ ta+ e- mu- ta-
 define all =  g a ve vm vt ve~ vm~ vt~ u c t d s b u~ c~ t~ d~ s~ b~ e- mu- ta- e+ mu+ ta+
 define ferm =  ve vm vt ve~ vm~ vt~ u c d s b u~ c~ d~ s~ b~ e- mu- ta- e+ mu+ ta+
-generate    p p > Topo Topo , ( Topo  > tt  kk vla ,  tt > kk vla bb  )
-output tW_tW_x53x53
+generate    p p > x53 x53~   , x53  > t  w+ , (x53~ > t~ w-, (t~ > w- b~, w- > k- vl~), (w- > k- vl~))
+add process p p > x53 x53~   , x53~ > t~ w- , (x53  > t  w+, (t  > w+ b , w+ > k+ vl ), (w+ > k+ vl ))
+output tW_tW_x53x53_2L2Nu

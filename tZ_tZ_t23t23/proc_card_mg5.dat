@@ -39,5 +39,5 @@ define WW = w+ w-
 define all =  g a ve vm vt ve~ vm~ vt~ u c t d s b u~ c~ t~ d~ s~ b~ e- mu- ta- e+ mu+ ta+
 define ferm1 =  ve ve~ e- e+ 
 define ferm2 =  b b~
-generate p p > topo topo / h a z ww , ( Topo > tt z / h w+ w- , z > ferm2 ferm2 , ( tt > bb WW , WW > ferm2 ferm2 ) )
+generate p p > topo topo / h a z ww , ( Topo > tt z / h w+ w- , z > ferm2 ferm2 , ( tt > bb WW , WW > ferm1 ferm1 ) )
 output tZ_tZ_t23t23

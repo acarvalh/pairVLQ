@@ -31,7 +31,7 @@ define l+ = e+ mu+
 define l- = e- mu-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
-import model STP_UFO_freeWidth
+import model STP_UFO_freeWidth_diagCKM
 define Topo = t23 t23~
 define bb = b b~
 define tt = t t~

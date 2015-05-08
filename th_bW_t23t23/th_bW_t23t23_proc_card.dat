@@ -31,12 +31,13 @@ define l+ = e+ mu+
 define l- = e- mu-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
-import model STP_UFO_freeWidth
+import model STP_UFO_freeWidth_diagCKM
 define Topo = t23 t23~
 define bb = b b~
 define tt = t t~
 define WW = w+ w-
 define all =  g a ve vm vt ve~ vm~ vt~ u c t d s b u~ c~ t~ d~ s~ b~ e- mu- ta- e+ mu+ ta+
 define ferm =  ve vm vt ve~ vm~ vt~ u c d s b u~ c~ d~ s~ b~ e- mu- ta- e+ mu+ ta+
-generate p p > topo topo / h a z ww , ( topo > tt h / z, tt > b WW , WW > ferm ferm ), ( topo > bb ww / h z , WW > ferm ferm)
+generate p p > topo topo / h a z ww , ( t23 > t h / z WW, t > b W+ , W+ > ferm ferm ), ( t23~ > b~ W- / h z , W- > ferm ferm)
+add process p p > topo topo / h a z ww , ( t23 > b W+ / h z , W+ > ferm ferm), ( t23~ > t~ h / z WW, t~ > b~ W- , W- > ferm ferm )
 output th_bW_t23t23

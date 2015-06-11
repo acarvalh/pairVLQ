@@ -8,6 +8,12 @@
 #*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
 #*                                                          *
 #************************************************************
+
+##Needed options for gridpack
+set ms_dir ./madspingrid
+set max_running_process 1
+
+
 #Some options (uncomment to apply)
 #
 # set seed 1
